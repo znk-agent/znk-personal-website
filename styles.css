@@ -1,0 +1,6 @@
+:root{--bg:#fff;--fg:#111;--accent:#4a90e2}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--fg)}
+header{background:var(--accent);color:white;padding:1rem}
+a{color:var(--accent)}
+main{padding:1rem}
+@media (max-width:600px){header{padding:0.5rem}}
